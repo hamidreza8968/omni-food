@@ -60,6 +60,24 @@ body{
 /********************************/
 /*General reusable components*/
 /********************************/
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2 , 1fr);
+}
+.grid--3-cols{
+    grid-template-columns: repeat(3 , 1fr);
+}
+
 .heading-primary{
     font-size: 5.2rem;
     font-weight: 700;
@@ -96,6 +114,7 @@ body{
 .margin-right-sm{
     margin-right: 1.6rem !important;
 }
+
 
 
 /********************************/
@@ -158,14 +177,8 @@ body{
 }
 
 .hero{
-    max-width: 130rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 9.6rem;
     /*background-color: rebeccapurple;*/
-    margin: 0 auto;
-    padding: 0 3.2rem;
 }
 
 .hero-description{
@@ -209,4 +222,18 @@ body{
     color: #cf711f;
     font-weight: 700;
 }
+
+
+
+/********************************/
+/*How it works section*/
+/********************************/
+
+.section-how{
+    padding: 9.6rem 0;
+    background-color: orangered;
+}
+
+
+
 
