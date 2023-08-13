@@ -31,7 +31,7 @@ cf711f/ 45260a
 
 
 06. Border radius
-default:9px / images:50%
+default:9px / medium:11px / images:50%
 
 
 07. White space
@@ -145,6 +145,10 @@ body{
 
 .margin-right-sm{
     margin-right: 1.6rem !important;
+}
+
+strong{
+    font-weight: 600;
 }
 
 
