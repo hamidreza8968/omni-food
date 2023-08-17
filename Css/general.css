@@ -7,7 +7,7 @@
 default:400 / medium:500 /  semi-bold:600 / bold:700
 
 - line heights:
-default:1 / small: 1.05 / medium: 1.2 /paragraph default: 1.6
+default:1 / small: 1.05 / medium: 1.2 /paragraph default: 1.6 / medium: 1.8
 
 - letter spacing:
 -0.5px / 0.75px
@@ -55,6 +55,8 @@ default:9px / medium:11px / images:50%
 
 html{
     font-size: 62.5%;
+
+    overflow-x: hidden;
 }
 
 body{
@@ -62,6 +64,8 @@ body{
     line-height: 1;
     font-weight: 400;
     color: #555;
+
+    overflow-x: hidden;
 }
 
 /********************************/
@@ -208,6 +212,7 @@ body{
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
 }
 .list-icon{
     width: 3rem;
