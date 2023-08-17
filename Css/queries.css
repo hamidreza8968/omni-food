@@ -16,6 +16,8 @@
     }
 }
 
+
+
 /********************************/
 /*below 1200px(75em)(landscape tablets)*/
 /********************************/
@@ -106,6 +108,7 @@
 /*Mobile navigation:*/
     .btn-mobile-nav{
         display: block;
+        z-index: 1000;
     }
     .main-nav{
         background-color: rgba(255,255,255,0.97);
